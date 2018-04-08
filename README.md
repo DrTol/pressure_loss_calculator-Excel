@@ -14,8 +14,8 @@ An Excel add-in with User-Defined-Functions (VBA) to calculate the friction pres
 ## Usage
 An example Excel file is given in [examplePressureLoss&RoughnessConverters.xlsm](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/examplePressureLoss%26RoughnessConverters.xlsm) to illustrate the use of the user-defined-functions in question. WARNING: please do not load the developed Excel add-in [ExcelAdd-In_PressureLoss.xlam](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/ExcelAdd-In_PressureLoss.xlam) in this stand-alone example Excel file because it already involves of the functions packed in this Excel add-in. 
 
-###### Description of the Example Excel File
-There are four different worksheets in this example Excel file, each hosts to illustration of usage for different matters, details given below: 
-- 
+#### Description of the Example Excel File
+There are four different worksheets in this example Excel file [examplePressureLoss&RoughnessConverters.xlsm](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/examplePressureLoss%26RoughnessConverters.xlsm), each hosts to illustration of usage for different functions, details given below: 
+- sdfsdf
 
 Please enjoy the example Excel file  making use of the modules/User-Defined-Functions(UDFs) (given in the folder [Modules-UDFs](https://github.com/DrTol/pressure_loss_calculator-Excel/tree/master/Modules-UDFs)) required for pressure loss calculation as built-in in this xlsm file - so you don't need to load the Excel Add-In  to this xlsm Excel file. 
