@@ -4,7 +4,7 @@ An Excel add-in with User-Defined-Functions (VBA) to calculate the friction pres
 ## Table of Contents
 - [Features](README.md#features)
 - [Usage](README.md#usage)
-  - [Description of the Example Excel File](README.md)
+  - [Description of the Example Excel File](README.md#description-of-the-example-excel-file)
 
 ## Features 
 - The VBA user-defined functions are available as packed in the Excel add-in [ExcelAdd-In_PressureLoss.xlam](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/ExcelAdd-In_PressureLoss.xlam) but also available on an individual basis for each function in the GitHub folder [Modules-UDFs](https://github.com/DrTol/pressure_loss_calculator-Excel/tree/master/Modules-UDFs)), the details for the functions described below: 
@@ -31,4 +31,7 @@ For example, the cell "F5" has the return from the [f_ColebrookWhite function](h
 This Excel WorkSheet illustrates the usage of the converter function [tConverterDW2HW](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/Modules-UDFs/Converter_f2C.bas) that is developed to convert the Darcy-Weisbach friction factor *f* to Hazen-Williams roughness coefficient *C* and the vice versa conversion from *C* to *f*. The two examples are that i) "H3" cell is the return as *f* as converted from the *C* given in "F3" and ii) "H6" cell is the return as *C* as converted from the *f* given in "F6"  
 
 - WorkSheet *Converter_Roughness*
-This Excel WorkSheet illustrates the usage of the converter function [tConverterRoughness](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/Modules-UDFs/Converter_rRou2C.bas) that is developed to convert the relative roughness (absolute pipe roughness / pipe diameter - *eps/D* or *rRou*) to Hazen-Williams roughness coefficient *C* and vice versa. The two examples are that i) "H3" cell is the return as *C* as converted from the *rRou* given in "F3" and ii) "H7" cell is the return as *rRou* as converted from the *C* given in "F7"  
+This Excel WorkSheet illustrates the usage of the converter function [tConverterRoughness](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/Modules-UDFs/Converter_rRou2C.bas) that is developed to convert the relative roughness (absolute pipe roughness / pipe diameter - *eps/D* or *rRou*) to Hazen-Williams roughness coefficient *C* and vice versa. The two examples are that i) "H3" cell is the return as *C* as converted from the *rRou* given in "F3" and ii) "H7" cell is the return as *rRou* as converted from the *C* given in "F7" 
+
+- Other WorkSheets
+The other Excel WorkSheets *zPipeCatalogue* and *zDiskinData* are not an illustration of usage but a required data for this example Excel file [examplePressureLoss&RoughnessConverters.xlsm](examplePressureLoss%26RoughnessConverters.xlsm). The *zDiskinData* is necessary for the user-defined-functions developed (given in this repository), i.e. especially at functions [tConverterRoughness](Modules-UDFs/Converter_rRou2C.bas) and [tReynoldsLimits](Modules-UDFs/tHWLimitsReynolds.bas).
