@@ -2,7 +2,9 @@
 An Excel add-in with User-Defined-Functions (VBA) to calculate the friction pressure loss (head loss) in circular pipes with full flow water. The pressure loss calculator function has the selective options for the friction loss formulations, can be selected as either "Hazen-Williams" or as "Darcy-Weisbach". For the latter, another selective options are possible for the equation calculating of the Darcy-Weisbach friction factor (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/README.md#features)). Besides, another functions are given to convert between the roughness factors/coefficients, made use of in the Darcy-Weisbach and the Hazen-Williams formulations. The Matlab calculator tools of the same Excel functions can be found in [pressure_loss_calculator-Matlab.git](https://github.com/DrTol/pressure_loss_calculator-Matlab.git).
 
 ## Table of Contents
-
+- [Features](README.md#features)
+- [Usage](README.md#usage)
+  - [Description of the Example Excel File](README.md)
 
 ## Features 
 - The VBA user-defined functions are available as packed in the Excel add-in [ExcelAdd-In_PressureLoss.xlam](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/ExcelAdd-In_PressureLoss.xlam) but also available on an individual basis for each function in the GitHub folder [Modules-UDFs](https://github.com/DrTol/pressure_loss_calculator-Excel/tree/master/Modules-UDFs)), the details for the functions described below: 
