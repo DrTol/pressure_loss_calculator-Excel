@@ -6,7 +6,7 @@ An Excel add-in with User-Defined-Functions (VBA) to calculate the friction pres
 - [Usage](README.md#usage)
   - [Description of the Example Excel File](README.md#description-of-the-example-excel-file)
   - [Description of the Excel Add-In](README.md#description-of-the-excel-add-in)
-  - [Description of Modules/User-Defined-Functions](README.md#description-of-modulesuser-defined-functions)
+  - [Description of Modules&Functions](README.md#description-of-modulesfunctions)
 
 ## Features 
 - The VBA user-defined functions are available as packed in the Excel add-in [ExcelAdd-In_PressureLoss.xlam](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/ExcelAdd-In_PressureLoss.xlam) but also available on an individual basis for each function in the GitHub folder [Modules-UDFs](https://github.com/DrTol/pressure_loss_calculator-Excel/tree/master/Modules-UDFs)), the details for the functions described below: 
@@ -43,4 +43,9 @@ All of the modules developed within this repository are given in the folder [Mod
 Please note that, after copy&paste, you have to delete the first codeline in the .bas file. For example, if you need only of the converter function, after copy&paste, you have to delete the line _Attribute VB_Name = "Converter_f2C"_ in the [Converter_f2C.bas](Modules-UDFs/Converter_f2C.bas) or (another example) if you need only of the Clamond algorithm you have the delete the _Attribute VB_Name = "DWf_Clamond"_ from the code lines of [dwf_Clamond.bas](Modules-UDFs/dwf_Clamond.bas). [A screenshot of How2Do!](zScreenShots/DeleteAttributes-f_Clamond.png)
 
 ### List of Functions
+Here is the list of functions developed and in use
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
