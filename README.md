@@ -47,5 +47,13 @@ Here is the list of functions developed and in use (latter original works by oth
 
 | Function | Description | Module |
 | --- | --- | --- | 
-| PressureLossCalculator (L, D, aRou, mFlow, T, P, Solver, Algorithm, fTol, MaxIter) | The main function calculating the pressure loss | [PressureLossCalculator.bas](pressure_loss_calculator-Excel/Modules-UDFs/PressureLossCalculator.bas) |
-| tConverterDW2HW (f_or_C, D, Re, T, P) | The converter tool between among the Darcy friction factor _f_ and the Hazen-Williams roughness coefficient _C_ | [Converter_f2C.bas](Modules-UDFs/Converter_f2C.bas) |
+| PressureLossCalculator (L, D, aRou, mFlow, T, P, Solver, Algorithm, fTol, MaxIter) | The main function calculating the pressure loss | [PressureLossCalculator.bas](Modules-UDFs/PressureLossCalculator.bas) |
+| tConverterDW2HW (f_or_C, D, Re, T, P) | The converter tool among the Darcy friction factor _f_ and the Hazen-Williams roughness coefficient _C_ | [Converter_f2C.bas](Modules-UDFs/Converter_f2C.bas) |
+| tConverterRoughness (rRou_or_C, ConverDir) | The converter tool among the relative roughness _rRou_ and the Hazen-Williams roughness coefficient _C_ | [Converter_rRou2C.bas](Modules-UDFs/Converter_rRou2C.bas) |
+| tReynoldsLimits (rRou_or_C, InputType) | Returns the limitations for the Reynolds range applicable for a given relative roughness or _C_ value | [tHWLimitsReynolds.bas](Modules-UDFs/tHWLimitsReynolds.bas) |
+| f_ColebrookWhite (D, Re, rRou, fTol, MaxIter) | returns the Darcy-Weisbach friction factor by solving iteratively the Colebrook-White equation | [dwf_ColebrookWhite.bas](Modules-UDFs/dwf_ColebrookWhite.bas) |
+| f_Clamond (Re, rRou) | Function returning the Darcy-Weisbach friction factor by use of the Clamond algorithm | [dwf_Clamond.bas](Modules-UDFs/dwf_Clamond.bas) |
+| f_Moody (D, Re, aRou) | Function returning the Darcy-Weisbach friction factor by use of the Moody algorithm | [dwf_Moody.bas](Modules-UDFs/dwf_Moody.bas) |
+| f_Haaland (D, Re, aRou) | Function returning the Darcy-Weisbach friction factor by use of the Haaland algorithm | [dwf_Haaland.bas](Modules-UDFs/dwf_Haaland.bas) |
+| f_SwameeJain (D, Re, aRou) | Function returning the Darcy-Weisbach friction factor by use of the Swamee & Jain algorithm | [dwf_SwameeJain.bas](Modules-UDFs/dwf_SwameeJain.bas) |
+| f_ZigrangSylvester (D, Re, aRou) | Function returning the Darcy-Weisbach friction factor by use of the Zigrang & Sylvester algorithm | [dwf_ZigrangSylvester.bas](Modules-UDFs/dwf_ZigrangSylvester.bas) |
