@@ -45,7 +45,7 @@ Please note that, after copy&paste, you have to delete the first codeline in the
 ### List of Functions
 Here is the list of functions developed and in use (latter original works by other Developers):
 
-| Function | InputArguments | Description | FileInfo |
-| --- | --- | --- | --- |
-| PressureLoss | L, D, aRou, mFlow, T, P, Solver, Algorithm, fTol, MaxIter | The main function calculating the pressure loss | [PressureLossCalculator.bas](pressure_loss_calculator-Excel/Modules-UDFs/PressureLossCalculator.bas) 
-| git diff | Show file differences that haven't been staged |
+| Function | Description | Module |
+| --- | --- | --- | 
+| PressureLossCalculator (L, D, aRou, mFlow, T, P, Solver, Algorithm, fTol, MaxIter) | The main function calculating the pressure loss | [PressureLossCalculator.bas](pressure_loss_calculator-Excel/Modules-UDFs/PressureLossCalculator.bas) |
+| tConverterDW2HW (f_or_C, D, Re, T, P) | The converter tool between among the Darcy friction factor _f_ and the Hazen-Williams roughness coefficient _C_ | [Converter_f2C.bas](Modules-UDFs/Converter_f2C.bas) |
