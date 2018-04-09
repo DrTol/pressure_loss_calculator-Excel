@@ -63,4 +63,16 @@ Here is the list of functions developed and in use (latter original works by oth
 | **Linterp** (KnownYs, KnownXs, NewX) | Linear interpolation function - developed by Wells, Ryan | [zInterp_Wells.bas](Modules-UDFs/zInterp_Wells.bas) |
 | **XSteam Module** | A collection of functions returning the water properties at a given operational condition (e.g. _rhoL_T(T)_ returns the water density as a function of temperature _T_) - developed by Holmgren, Magnus | [zXSteam.bas](Modules-UDFs/zXSteam.bas) | 
 
+## License
+You are free to use, modify and distribute the code as long as authorship is properly acknowledged. The same applies for the original works 'XSteam' by Holmgren M. and 'colebrook.vb' by Clamond D, this repository functions make use of.
+
+## Acknowledgement
+We would like to acknowledge all of the open-source minds in general for their willing of share (as apps or comments/answers in forums), which has encouraged our department to publish the user-defined-functions developed during the PhD study here in GitHub.
+
+This repository *pressure_loss_calculator-Excel* makes use of other original open-source projects: 
+- [XSteam by Holmgren M.](http://xsteam.sourceforge.net/) | Author Description: XSteam provides accurate steam and water properties from 0 - 1000 bar and from 0 - 2000 deg C according to the standard IAPWS IF-97. For accuracy of the functions in different regions see IF-97 (www.iapws.org).
+- [colebrook.m by Clamond D.](https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function) - re-arranged as to the VBA programming language | Author Description: fast, accurate and robust computation of the Darcy-Weisbach friction factor _f_ according to the Colebrook equation. 
+- [Function Linterp by Wells R.](https://wellsr.com/vba/2016/excel/powerful-excel-linear-interpolation-function-vba/) | Author Description: A simple and powerful Excel linear interpolation function.
+
+The Excel Add-In (the user-defined VBA functions developed) as well as the Matlab tool of the same (released in [pressure_loss_calculator-Matlab.git](https://github.com/DrTol/pressure_loss_calculator-Matlab.git)) are by-products from the PhD study about the 4th generation (4G) low-temperature district heating systems in supply to low-energy houses, carried out by Hakan İbrahim Tol, PhD under the supervision of Prof. Dr. Svend Svendsen and Ass. Prof. Susanne Balslev Nielsen at the Technical University of Denmark (DTU). The PhD topic: "District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy" - [free download by DTU (link)](http://orbit.dtu.dk/en/publications/district-heating-in-areas-with-low-energy-houses(9c056db5-8e76-425f-92ca-c072b642b6b3).html) or [by ResearchGate (link)](https://www.researchgate.net/publication/276266953_District_heating_in_areas_with_low_energy_houses_-_Detailed_analysis_of_district_heating_systems_based_on_low_temperature_operation_and_use_of_renewable_energy).
 
