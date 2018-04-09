@@ -38,9 +38,9 @@ For example, the cell "F5" has the return from the [f_ColebrookWhite function](M
 The Excel add-in [ExcelAdd-In_PressureLoss.xlam](ExcelAdd-In_PressureLoss.xlam) allows using of the developed user-defined-functions in any Excel file that your calculations take part. How to install the Excel add-in is well described in [Acompara J - How to Install an Excel Add-In - Guide @ExcelCampus.com](https://www.excelcampus.com/tools/how-to-install-an-excel-add-in-guide/).
 
 ### Description of Modules&Functions
-All of the modules developed within this repository are given in the folder [Modules-UDFs](Modules-UDFs). Here the idea is to present an overview of the Excel functions. Besides, one can use some of the Excel functions developed partially if other functions are not required by simply copy&pasting them on the Visiual Basic Editor. 
+All of the modules developed within this repository are given in the folder [Modules-UDFs](Modules-UDFs). Generally, each of these modules hosts to a unique Excel functions developed, as shown in the table at section [List of Functions](README.md#list-of-functions). Here the idea is to present an overview of the Excel functions. Besides, one can use some of the Excel functions developed partially if other functions are not required by simply importing the bas file/s or copy&pasting them on the Visiual Basic Editor. 
 
-Please note that, after copy&paste, you have to delete the first codeline in the .bas file. For example, if you need only of the converter function, after copy&paste, you have to delete the line _Attribute VB_Name = "Converter_f2C"_ in the [Converter_f2C.bas](Modules-UDFs/Converter_f2C.bas) or (another example) if you need only of the Clamond algorithm you have the delete the _Attribute VB_Name = "DWf_Clamond"_ from the code lines of [dwf_Clamond.bas](Modules-UDFs/dwf_Clamond.bas). [A screenshot of How2Do!](zScreenShots/DeleteAttributes-f_Clamond.png)
+Please note that, after copy&paste, you have to delete the first codeline in the .bas file. For example, if you need only of the converter function, after copy&paste, you have to delete the line _Attribute VB_Name = "Converter_f2C"_ in the [Converter_f2C.bas](Modules-UDFs/Converter_f2C.bas) or (another example) if you need only of the Clamond algorithm you have the delete the _Attribute VB_Name = "DWf_Clamond"_ from the code lines of [dwf_Clamond.bas](Modules-UDFs/dwf_Clamond.bas). [A screenshot of How2Do!](zScreenShots/DeleteAttributes-f_Clamond.png). 
 
 ### List of Functions
 Here is the list of functions developed and in use (latter original works by other Developers):
@@ -57,3 +57,10 @@ Here is the list of functions developed and in use (latter original works by oth
 | f_Haaland (D, Re, aRou) | Function returning the Darcy-Weisbach friction factor by use of the Haaland algorithm | [dwf_Haaland.bas](Modules-UDFs/dwf_Haaland.bas) |
 | f_SwameeJain (D, Re, aRou) | Function returning the Darcy-Weisbach friction factor by use of the Swamee & Jain algorithm | [dwf_SwameeJain.bas](Modules-UDFs/dwf_SwameeJain.bas) |
 | f_ZigrangSylvester (D, Re, aRou) | Function returning the Darcy-Weisbach friction factor by use of the Zigrang & Sylvester algorithm | [dwf_ZigrangSylvester.bas](Modules-UDFs/dwf_ZigrangSylvester.bas) |
+| Reynolds (mFlow, D, T) | Function returning the Reynolds number as a function of the water mass flow rate | [tReynolds.bas](pressure_loss_calculator-Excel/Modules-UDFs/tReynolds.bas) |
+| LogBase (x, base) | User-Defined VBA function returning the logarithm of a given number _x_ at a given base of _base_ | [zOtherTools.bas](Modules-UDFs/zOtherTools.bas) |
+| PiNumber () | User-Defined VBA function returning the Pi number at the highest precision | [zOtherTools.bas](Modules-UDFs/zOtherTools.bas) |
+| Linterp (KnownYs, KnownXs, NewX) | Linear interpolation function - developed by Wells, Ryan | [zInterp_Wells.bas](Modules-UDFs/zInterp_Wells.bas) |
+| XSteam Module | A collection of functions returning the water properties at a given operational condition (e.g. _rhoL_T(T)_ returns the water density as a function of temperature _T_) - developed by Holmgren, Magnus | [zXSteam.bas](Modules-UDFs/zXSteam.bas) | 
+
+
