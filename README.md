@@ -43,9 +43,9 @@ All of the modules developed within this repository are given in the folder [Mod
 Please note that, after copy&paste, you have to delete the first codeline in the .bas file. For example, if you need only of the converter function, after copy&paste, you have to delete the line _Attribute VB_Name = "Converter_f2C"_ in the [Converter_f2C.bas](Modules-UDFs/Converter_f2C.bas) or (another example) if you need only of the Clamond algorithm you have the delete the _Attribute VB_Name = "DWf_Clamond"_ from the code lines of [dwf_Clamond.bas](Modules-UDFs/dwf_Clamond.bas). [A screenshot of How2Do!](zScreenShots/DeleteAttributes-f_Clamond.png)
 
 ### List of Functions
-Here is the list of functions developed and in use
+Here is the list of functions developed and in use (latter original works by other Developers):
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
+| Function | InputArguments | Description | FileInfo |
+| --- | --- | --- | --- |
+| PressureLoss | L, D, aRou, mFlow, T, P, Solver, Algorithm, fTol, MaxIter | The main function calculating the pressure loss | [PressureLossCalculator.bas](pressure_loss_calculator-Excel/Modules-UDFs/PressureLossCalculator.bas) 
 | git diff | Show file differences that haven't been staged |
