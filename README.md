@@ -7,6 +7,11 @@ An Excel add-in with User-Defined-Functions (VBA) to calculate the friction pres
   - [Description of the Example Excel File](README.md#description-of-the-example-excel-file)
   - [Description of the Excel Add-In](README.md#description-of-the-excel-add-in)
   - [Description of Modules&Functions](README.md#description-of-modulesfunctions)
+  - [List of Functions](README.md#list-of-functions)
+- [License](README.md#license)
+- [Acknowledgement](README.md#acknowledgement)
+- [How2Cite](README.md#how2cite)
+- [References](README.md#references)
 
 ## Features 
 - The VBA user-defined functions are available as packed in the Excel add-in [ExcelAdd-In_PressureLoss.xlam](https://github.com/DrTol/pressure_loss_calculator-Excel/blob/master/ExcelAdd-In_PressureLoss.xlam) but also available on an individual basis for each function in the GitHub folder [Modules-UDFs](https://github.com/DrTol/pressure_loss_calculator-Excel/tree/master/Modules-UDFs)), the details for the functions described below: 
@@ -67,12 +72,27 @@ Here is the list of functions developed and in use (latter original works by oth
 You are free to use, modify and distribute the code as long as authorship is properly acknowledged. The same applies for the original works 'XSteam' by Holmgren M. and 'colebrook.vb' by Clamond D, this repository functions make use of.
 
 ## Acknowledgement
-We would like to acknowledge all of the open-source minds in general for their willing of share (as apps or comments/answers in forums), which has encouraged our department to publish the user-defined-functions developed during the PhD study here in GitHub.
+We would like to acknowledge all of the open-source minds in general for their willing of share (as apps or comments/answers in forums), which has encouraged our department to publish our user-defined-functions here in GitHub.
 
 This repository *pressure_loss_calculator-Excel* makes use of other original open-source projects: 
 - [XSteam by Holmgren M.](http://xsteam.sourceforge.net/) | Author Description: XSteam provides accurate steam and water properties from 0 - 1000 bar and from 0 - 2000 deg C according to the standard IAPWS IF-97. For accuracy of the functions in different regions see IF-97 (www.iapws.org).
 - [colebrook.m by Clamond D.](https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function) - re-arranged as to the VBA programming language | Author Description: fast, accurate and robust computation of the Darcy-Weisbach friction factor _f_ according to the Colebrook equation. 
-- [Function Linterp by Wells R.](https://wellsr.com/vba/2016/excel/powerful-excel-linear-interpolation-function-vba/) | Author Description: A simple and powerful Excel linear interpolation function.
+- [Linterp.vb by Wells R.](https://wellsr.com/vba/2016/excel/powerful-excel-linear-interpolation-function-vba/) | Author Description: A simple and powerful Excel linear interpolation function.
 
 The Excel Add-In (the user-defined VBA functions developed) as well as the Matlab tool of the same (released in [pressure_loss_calculator-Matlab.git](https://github.com/DrTol/pressure_loss_calculator-Matlab.git)) are by-products from the PhD study about the 4th generation (4G) low-temperature district heating systems in supply to low-energy houses, carried out by Hakan İbrahim Tol, PhD under the supervision of Prof. Dr. Svend Svendsen and Ass. Prof. Susanne Balslev Nielsen at the Technical University of Denmark (DTU). The PhD topic: "District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy" - [free download by DTU (link)](http://orbit.dtu.dk/en/publications/district-heating-in-areas-with-low-energy-houses(9c056db5-8e76-425f-92ca-c072b642b6b3).html) or [by ResearchGate (link)](https://www.researchgate.net/publication/276266953_District_heating_in_areas_with_low_energy_houses_-_Detailed_analysis_of_district_heating_systems_based_on_low_temperature_operation_and_use_of_renewable_energy).
 
+## How2Cite:
+1. Tol, Hİ. pressure_loss_calculator-Excel. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Excel/
+2. Tol, Hİ. District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy. PhD Supervisors: Svendsen S. & Nielsen SB. Technical University of Denmark 2015; 204 p. ISBN: 9788778773685.
+
+## References
+- Sanks RL. Flow in conduits. In: Sanks RL, Tchobanoglous G, Bosserman BE, Jones GM, editors. Pumping station design. Boston, USA: Butterworth-Heinemann 1998: p. 33-39.
+- Clamond D. Efficient resolution of the colebrook equation. Industrial & Engineering Chemistry Research 2009; 48: p. 3665-3671.
+- Clamond D. colebrook.m - Efficient resolution of the Colebrook-White equation (v1.0). MathWorks File Exchange: https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function
+- Diskin MH. The limits of applicability of the Hazen-Williams formula. La Houille Blanche 1960; 6: p. 720-726.
+- Liou CP. Limitations and proper use of the Hazen-Williams equation. Journal of Hydraulic Engineering 1998; 124(9): p. 951-954.
+- Colebrook CF & White CM. Experiments with fluid friction in roughened pipes. Proceedings of the Royal Society A - Mathematical, Physical & Engineering Sciences 1937: p. 367-381.
+- Niazkar M, Talebbeydokhti N & Afzali SH. Relationship between Hazen-William coefficient and Colebrook-White friction factor: Application in water network analysis. European Water 2017; 58: p. 513-520.
+- Asker M, Turgut OE & Coban MT. A review of non iterative friction factor correlations for the calculation of pressure drop in pipes. Bitlis Eren Univ J Sci & Technol 2014; 4(1): 8 p. 
+- Genić S, Arandjelović I, Kolendić P, Jarić M, Budimir N & Genić M. A Review of explicit approximations of Colebrook’s equation. FME Transactions 2011; 39: p. 67-71. 
+- Holmgren M. X Steam, Thermodynamic properties of water and steam (v1.0). MathWorks File Exchange: https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam
