@@ -82,7 +82,7 @@ This repository *pressure_loss_calculator-Excel* makes use of other original ope
 The Excel Add-In (the user-defined VBA functions developed) as well as the Matlab tool of the same (released in [pressure_loss_calculator-Matlab.git](https://github.com/DrTol/pressure_loss_calculator-Matlab.git)) are by-products from the PhD study about the 4th generation (4G) low-temperature district heating systems in supply to low-energy houses, carried out by Hakan İbrahim Tol, PhD under the supervision of Prof. Dr. Svend Svendsen and Ass. Prof. Susanne Balslev Nielsen at the Technical University of Denmark (DTU). The PhD topic: "District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy" - [free download by DTU (link)](http://orbit.dtu.dk/en/publications/district-heating-in-areas-with-low-energy-houses(9c056db5-8e76-425f-92ca-c072b642b6b3).html) or [by ResearchGate (link)](https://www.researchgate.net/publication/276266953_District_heating_in_areas_with_low_energy_houses_-_Detailed_analysis_of_district_heating_systems_based_on_low_temperature_operation_and_use_of_renewable_energy).
 
 ## How2Cite:
-1. Tol, Hİ. pressure_loss_calculator-Excel. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Excel/
+1. Tol, Hİ. pressure_loss_calculator-Excel. DOI: 10.5281/zenodo.1215618. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Excel/
 2. Tol, Hİ. District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy. PhD Supervisors: Svendsen S. & Nielsen SB. Technical University of Denmark 2015; 204 p. ISBN: 9788778773685.
 
 ## References
